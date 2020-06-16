@@ -1,0 +1,165 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap');*/
+
+/* Universal Style*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.colors p {
+    margin-left: 20px;
+}
+
+section {
+    border: 2px solid darkgray;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.caption {
+    text-transform: capitalize;
+}
+
+/* table */ 
+
+table {
+    width: 95%;
+    margin: 0 auto;
+}
+
+table td {
+    text-align: center;
+    border: 2px solid white;
+}
+
+table th {
+    background-color: darkgrey;
+    padding: 20px 20px;
+    border: 2px solid darkslategray;
+}
+
+.nameCol {
+    background-color: rgba(169,  169, 169, .50);
+    
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.sectionContainers {
+    background-color: darkgray;
+}
+
+.flex {
+    display: flex;
+}
+.fontGrid {
+    width: 50%;
+    margin: 10px 10px;
+    padding: 5px;
+    background-color: white;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px darkslategrey;
+}
+
+.fontGrid b {
+    font-weight: bold ;
+}
+
+.fontGrid h2 {
+    text-align: left;
+}
+
+
+
+#playFair p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+#playFair p i {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#playFair p b {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+#arvo p {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+}
+
+#arvo p i {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#arvo p b {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+#style1 h1 {
+    font-family: 'Playfair Display' , serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#style1 h2 {
+    font-family: 'Arvo' , serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#style1 p {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#style2 h1 {
+    font-family: 'Arvo' , serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#style2 h2 {
+    font-family: 'Playfair Display' , serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#style2 p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
